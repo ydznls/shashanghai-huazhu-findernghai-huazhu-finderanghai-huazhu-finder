@@ -1,0 +1,288 @@
+{
+  "source": "https://www.hworld.com/",
+  "checkedAt": "2026-10-21T00:50:40.532Z",
+  "all": [
+    {
+      "name": "全季",
+      "code": "quanji"
+    },
+    {
+      "name": "花间堂",
+      "code": "huajiantang"
+    },
+    {
+      "name": "桔子",
+      "code": "juzi"
+    },
+    {
+      "name": "汉庭",
+      "code": "hanting"
+    },
+    {
+      "name": "桔子水晶",
+      "code": "juzishuijing"
+    },
+    {
+      "name": "禧玥",
+      "code": "joya"
+    },
+    {
+      "name": "海友",
+      "code": "hi-lnn"
+    },
+    {
+      "name": "你好",
+      "code": "nihao"
+    },
+    {
+      "name": "漫心",
+      "code": "manxin"
+    },
+    {
+      "name": "星程",
+      "code": "starway"
+    },
+    {
+      "name": "施柏阁",
+      "code": "steigenberger"
+    },
+    {
+      "name": "城际",
+      "code": "intercity"
+    },
+    {
+      "name": "美居",
+      "code": "mercure"
+    },
+    {
+      "name": "CitiGO",
+      "code": "citigo"
+    },
+    {
+      "name": "宜必思",
+      "code": "ibis"
+    },
+    {
+      "name": "施柏阁大观",
+      "code": "steigenberger-icons"
+    },
+    {
+      "name": "宋品",
+      "code": "song"
+    },
+    {
+      "name": "美仑美奂",
+      "code": "maxx"
+    },
+    {
+      "name": "永乐半山",
+      "code": "lebanshan"
+    },
+    {
+      "name": "美仑国际",
+      "code": "grand-madison"
+    },
+    {
+      "name": "美仑酒店",
+      "code": "madison"
+    },
+    {
+      "name": "诺富特",
+      "code": "novotel"
+    },
+    {
+      "name": "宜必思尚品",
+      "code": "ibis-styles"
+    },
+    {
+      "name": "美爵",
+      "code": "grand-mercure"
+    },
+    {
+      "name": "城家公寓",
+      "code": "cjia-apartment"
+    },
+    {
+      "name": "CitiGO HOUSE",
+      "code": "citigo-house"
+    },
+    {
+      "name": "城家奢华公寓",
+      "code": "cjia-lux"
+    },
+    {
+      "name": "城家高级公寓",
+      "code": "cjia-apartment-prime"
+    },
+    {
+      "name": "馨乐庭",
+      "code": "citadines"
+    },
+    {
+      "name": "励业公寓",
+      "code": "li-yeah"
+    }
+  ],
+  "groups": [
+    {
+      "name": "汉庭酒店",
+      "type": "国民",
+      "link": "https://m.hworld.com/hotel/hanting"
+    },
+    {
+      "name": "全季大观",
+      "type": "精选",
+      "link": ""
+    },
+    {
+      "name": "全季酒店",
+      "type": "中档",
+      "link": "https://www.hworld.com/hotel/quanji"
+    },
+    {
+      "name": "宋品",
+      "type": "奢华",
+      "link": "https://www.hworld.com/hotel/song"
+    },
+    {
+      "name": "禧玥酒店",
+      "type": "高档",
+      "link": "https://www.hworld.com/hotel/joya"
+    },
+    {
+      "name": "城家公寓",
+      "type": "服务式公寓",
+      "link": "https://www.hworld.com/hotel/cjia-apartment"
+    },
+    {
+      "name": "城家公寓酒店",
+      "type": "旅居",
+      "link": "https://www.hworld.com/hotel/cjia-apartment-prime"
+    },
+    {
+      "name": "瑞贝庭公寓酒店",
+      "type": "旅居",
+      "link": ""
+    },
+    {
+      "name": "你好酒店",
+      "type": "国民",
+      "link": "https://www.hworld.com/hotel/nihao"
+    },
+    {
+      "name": "桔子水晶",
+      "type": "精选",
+      "link": "https://www.hworld.com/hotel/juzishuijing"
+    },
+    {
+      "name": "桔子酒店",
+      "type": "中档",
+      "link": "https://www.hworld.com/hotel/juzi"
+    },
+    {
+      "name": "施柏阁大观",
+      "type": "奢华",
+      "link": "https://www.hworld.com/hotel/steigenberger-icons"
+    },
+    {
+      "name": "花间堂",
+      "type": "高档",
+      "link": "https://www.hworld.com/hotel/huajiantang"
+    },
+    {
+      "name": "馨乐庭",
+      "type": "旅居",
+      "link": "https://www.hworld.com/hotel/citadines"
+    },
+    {
+      "name": "城际酒店",
+      "type": "精选",
+      "link": "https://www.hworld.com/hotel/intercity"
+    },
+    {
+      "name": "宜必思酒店",
+      "type": "国民",
+      "link": "https://www.hworld.com/hotel/ibis"
+    },
+    {
+      "name": "漫心酒店",
+      "type": "中档",
+      "link": "https://www.hworld.com/hotel/manxin"
+    },
+    {
+      "name": "施柏阁",
+      "type": "高档",
+      "link": "https://www.hworld.com/hotel/steigenberger"
+    },
+    {
+      "name": "欢阁服务公寓",
+      "type": "服务式公寓",
+      "link": "https://www.hworld.com/hotel/citigo-house"
+    },
+    {
+      "name": "汉庭快捷",
+      "type": "国民",
+      "link": ""
+    },
+    {
+      "name": "星程酒店",
+      "type": "中档",
+      "link": "https://www.hworld.com/hotel/starway"
+    },
+    {
+      "name": "漫心府",
+      "type": "精选",
+      "link": ""
+    },
+    {
+      "name": "美仑美奂",
+      "type": "高档",
+      "link": "https://www.hworld.com/hotel/maxx"
+    },
+    {
+      "name": "美仑国际",
+      "type": "高档",
+      "link": "https://www.hworld.com/hotel/grand-madison"
+    },
+    {
+      "name": "城家奢华公寓",
+      "type": "服务式公寓",
+      "link": "https://www.hworld.com/hotel/cjia-lux"
+    },
+    {
+      "name": "海友酒店",
+      "type": "国民",
+      "link": "https://www.hworld.com/hotel/hi-lnn"
+    },
+    {
+      "name": "美居酒店",
+      "type": "精选",
+      "link": "https://www.hworld.com/hotel/mercure"
+    },
+    {
+      "name": "欢阁酒店",
+      "type": "精选",
+      "link": "https://www.hworld.com/hotel/citigo"
+    },
+    {
+      "name": "诺富特",
+      "type": "高档",
+      "link": "https://www.hworld.com/hotel/novotel"
+    },
+    {
+      "name": "碧舍",
+      "type": "生活方式",
+      "link": ""
+    },
+    {
+      "name": "美仑酒店",
+      "type": "精选",
+      "link": "https://www.hworld.com/hotel/madison"
+    },
+    {
+      "name": "jaz",
+      "type": "生活方式",
+      "link": ""
+    }
+  ]
+}

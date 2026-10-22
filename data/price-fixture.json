@@ -1,0 +1,535 @@
+{
+  "source": "华住会公开未登录接口，2026-10-21核验",
+  "identity": {
+    "code": 200,
+    "businessCode": "1000",
+    "content": {
+      "hotelId": "9007771",
+      "cityName": "上海",
+      "hotelName": "汉庭上海虹桥北新泾地铁站酒店"
+    }
+  },
+  "payload": {
+    "code": 200,
+    "businessCode": "1000",
+    "content": {
+      "roomList": [
+        {
+          "bedSize": "1.8",
+          "bedTypeCode": "true,false,false,false",
+          "bedTypeName": "大床",
+          "bedTypeNameEn": "",
+          "bedWidthNewDesc": "1张2*1.8米床",
+          "bookingAvailable": true,
+          "floor": "2-7",
+          "fullyBooked": false,
+          "guestRoomCode": "SQX1",
+          "hasSmokeFree": "该房型为无烟房",
+          "hasSmokeFreeNewDesc": "无烟房/房间内禁烟",
+          "hasWindow": "内景",
+          "isAdsl": "无宽带",
+          "isAdslWifi": "客房wifi",
+          "isCanAddBed": "0",
+          "isHasWindowNewAppDesc": "内景窗，位于走廊或过道",
+          "isHasWindowNewDesc": "内景窗，位于走廊或过道",
+          "isRoomOpenResv": true,
+          "marketPrice": 389,
+          "marketPriceDic": {
+            "CNY": 389
+          },
+          "maxCheckInNum": 2,
+          "maxCheckInNumDesc": "2人",
+          "minRoomArea": 18,
+          "nxCoupon": false,
+          "preCouponResponse": {
+            "fixRateCanUsed": false,
+            "fixRateRoomFull": true,
+            "prePayCouponsCanUsed": false,
+            "prePayCouponsRoomFull": true
+          },
+          "ratePlanCodeList": [
+            {
+              "BreakfastCount": 0,
+              "BreakfastType": 1,
+              "IncludePackageList": [],
+              "IsExchangeCertificate": false,
+              "IsFixedPrice": false,
+              "MemberRateRightsList": [
+                {
+                  "Name": "移动端预订",
+                  "Source": "member",
+                  "SpecialType": "",
+                  "Summary": "1倍积分",
+                  "Value": "1",
+                  "diff": "",
+                  "memberValue": ""
+                }
+              ],
+              "PackageOrderRefund": [],
+              "PackageRate": false,
+              "activityAttribute": {
+                "Activitybase": 1
+              },
+              "activityDesc": "1、活动期间提前1天预订可享受会员折上95折优惠，需全额预付，入住当天12点之前可免费取消修改，逾期不可取消； \n2、本活动房量有限，先订先得； \n3、本活动根据会员级别送早（海友品牌视酒店情况送早）； \n4、本活动不可活动价续住，不与平台其他优惠活动共享。",
+              "activityId": "12660",
+              "beginCheckInTime": "",
+              "beginTime": false,
+              "bookingAvailability": 0,
+              "bookingSubmitPolicy": {
+                "countryCallingCode": "86",
+                "isEmailRequired": false,
+                "isLocalMobileRequired": true,
+                "isMobileRequired": true,
+                "isSupportInvoiceTransfer": true,
+                "isSyncBooking": false,
+                "needPopupHpay": true,
+                "primaryLanguage": "zh",
+                "supportLanguage": [
+                  "zh",
+                  "en"
+                ]
+              },
+              "cancelPolicy": 0,
+              "cancelPolicyCode": "12PM0DF_100P",
+              "cancelPolicyDesc": "如果不想支付取消费用，需在入住日0天12:00（时间）之前取消预订，超出这一时间，将收取费用",
+              "cancelPolicyDescEn": "",
+              "cancelPolicyDescList": [
+                {
+                  "cancelPolicyDesc": "10月22日 12:00前可免费取消",
+                  "cancelPolicyType": 2
+                }
+              ],
+              "couponCount": 0,
+              "dailyPrice": [
+                {
+                  "date": "2026-10-22T00:00:00",
+                  "mealPlanCodes": [
+                    "14"
+                  ],
+                  "prices": [
+                    {
+                      "amount": 362,
+                      "amountWithoutHandlingFree": 362,
+                      "currencyCode": "CNY",
+                      "marketPrice": 389,
+                      "taxAmount": 0,
+                      "taxAmountWithoutHandlingFree": 0
+                    }
+                  ]
+                }
+              ],
+              "endCheckInTime": "",
+              "endTime": "",
+              "fullyBooked": false,
+              "guaranteePolicy": 0,
+              "guaranteePolicyDesc": "通过信用卡预付全部房费预订时付清。",
+              "guaranteePolicyDescEn": "",
+              "hourAge": 0,
+              "hourAvailableCountList": [],
+              "hourBookingBeginTime": "",
+              "hourBookingEndTime": "",
+              "isAgreement": false,
+              "isBindMemberPrice": false,
+              "isHornorGiftHotels": false,
+              "isNightSnack": false,
+              "isOneSelf": false,
+              "isRatePlanOpenResv": true,
+              "latestCheckoutTime": "",
+              "lockPriceCouponActivity": false,
+              "maxBookingCountOfMember": 3,
+              "mealPlanCode": "14",
+              "mealPlanName": "不含早餐",
+              "mealPlanRules": "会员通过华住会平台预订华住会权益适用酒店，按照实际入住的会员的等级享受相应的免费早餐，每间夜赠送免费早餐数不超过入住人数且最多2份；海友酒店不提供早餐。",
+              "mealPlanSummary": "不含早餐",
+              "nightSnackBeginTime": "00:00",
+              "nightSnackEndTime": "23:59",
+              "notAvailableToday": false,
+              "ownerIdentityStatus": false,
+              "packageOrderYn": false,
+              "packagesActivity": false,
+              "prepayType": 1,
+              "prepayTypeDescription": "",
+              "ratePlanCode": "12660-PRO1bb",
+              "ratePlanName": "提前1天折上95折",
+              "ratePlanNameEn": "提前1天折上95折",
+              "rcpType": "RCPTYPE01",
+              "roomCount": 6,
+              "serviceList": [],
+              "supportExpensive": true,
+              "supportPriceProtected": true,
+              "targetChannel": "PMS2020",
+              "upgradeRoomList": [],
+              "vipEnum": ""
+            },
+            {
+              "BreakfastCount": 0,
+              "BreakfastType": 1,
+              "IncludePackageList": [],
+              "IsExchangeCertificate": false,
+              "IsFixedPrice": false,
+              "MemberRateRightsList": [
+                {
+                  "Name": "移动端预订",
+                  "Source": "member",
+                  "SpecialType": "",
+                  "Summary": "1倍积分",
+                  "Value": "1",
+                  "diff": "",
+                  "memberValue": ""
+                }
+              ],
+              "PackageOrderRefund": [],
+              "PackageRate": false,
+              "activityAttribute": {},
+              "activityDesc": "",
+              "activityId": "",
+              "beginCheckInTime": "",
+              "beginTime": false,
+              "bookingAvailability": 0,
+              "bookingSubmitPolicy": {
+                "countryCallingCode": "86",
+                "isEmailRequired": false,
+                "isLocalMobileRequired": true,
+                "isMobileRequired": true,
+                "isSupportInvoiceTransfer": true,
+                "isSyncBooking": false,
+                "needPopupHpay": false,
+                "primaryLanguage": "zh",
+                "supportLanguage": [
+                  "zh",
+                  "en"
+                ]
+              },
+              "cancelPolicy": 0,
+              "cancelPolicyCode": "6PM0DF_100P",
+              "cancelPolicyDesc": "如果不想支付取消费用，需在入住日0天18:00（时间）之前取消预订，超出这一时间，将收取费用",
+              "cancelPolicyDescEn": "",
+              "cancelPolicyDescList": [
+                {
+                  "cancelPolicyDesc": "10月22日 18:00前可免费取消",
+                  "cancelPolicyType": 2
+                }
+              ],
+              "couponCount": 0,
+              "dailyPrice": [
+                {
+                  "date": "2026-10-22T00:00:00",
+                  "mealPlanCodes": [
+                    "14"
+                  ],
+                  "prices": [
+                    {
+                      "amount": 381,
+                      "amountWithoutHandlingFree": 381,
+                      "currencyCode": "CNY",
+                      "marketPrice": 389,
+                      "taxAmount": 0,
+                      "taxAmountWithoutHandlingFree": 0
+                    }
+                  ]
+                }
+              ],
+              "endCheckInTime": "",
+              "endTime": "",
+              "fullyBooked": false,
+              "guaranteePolicy": 2,
+              "guaranteePolicyDesc": "支付后入住日18:00前可免费取消，18:00后未办理入住，酒店视情况有权取消订单，支付后房间整晚保留。",
+              "guaranteePolicyDescEn": "",
+              "hourAge": 0,
+              "hourAvailableCountList": [],
+              "hourBookingBeginTime": "",
+              "hourBookingEndTime": "",
+              "isAgreement": false,
+              "isBindMemberPrice": false,
+              "isHornorGiftHotels": false,
+              "isNightSnack": false,
+              "isOneSelf": false,
+              "isRatePlanOpenResv": true,
+              "latestCheckoutTime": "",
+              "lockPriceCouponActivity": false,
+              "maxBookingCountOfMember": 3,
+              "mealPlanCode": "14",
+              "mealPlanName": "不含早餐",
+              "mealPlanRules": "会员通过华住会平台预订华住会权益适用酒店，按照实际入住的会员的等级享受相应的免费早餐，每间夜赠送免费早餐数不超过入住人数且最多2份；海友酒店不提供早餐。",
+              "mealPlanSummary": "不含早餐",
+              "nightSnackBeginTime": "00:00",
+              "nightSnackEndTime": "23:59",
+              "notAvailableToday": false,
+              "ownerIdentityStatus": false,
+              "packageOrderYn": false,
+              "packagesActivity": false,
+              "prepayType": 0,
+              "prepayTypeDescription": "",
+              "ratePlanCode": "Base-OIP-STD",
+              "ratePlanName": "星会员价",
+              "ratePlanNameEn": "星会员价",
+              "rcpType": "RCPTYPE01",
+              "roomCount": 6,
+              "serviceList": [],
+              "supportExpensive": true,
+              "supportPriceProtected": true,
+              "targetChannel": "PMS2020",
+              "upgradeRoomList": [],
+              "vipEnum": ""
+            },
+            {
+              "BreakfastCount": 0,
+              "BreakfastType": 1,
+              "IncludePackageList": [],
+              "IsExchangeCertificate": false,
+              "IsFixedPrice": false,
+              "MemberRateRightsList": [
+                {
+                  "Name": "移动端预订",
+                  "Source": "member",
+                  "SpecialType": "",
+                  "Summary": "1倍积分",
+                  "Value": "1",
+                  "diff": "",
+                  "memberValue": ""
+                }
+              ],
+              "PackageOrderRefund": [],
+              "PackageRate": false,
+              "activityAttribute": {
+                "Packages": 1
+              },
+              "activityDesc": "M1专业记忆枕一只",
+              "activityId": "29766",
+              "beginCheckInTime": "",
+              "beginTime": false,
+              "bookingAvailability": 0,
+              "bookingSubmitPolicy": {
+                "countryCallingCode": "86",
+                "isEmailRequired": false,
+                "isLocalMobileRequired": true,
+                "isMobileRequired": true,
+                "isSupportInvoiceTransfer": true,
+                "isSyncBooking": false,
+                "needPopupHpay": true,
+                "primaryLanguage": "zh",
+                "supportLanguage": [
+                  "zh",
+                  "en"
+                ]
+              },
+              "cancelPolicy": 0,
+              "cancelPolicyCode": "12PM0DF_100P",
+              "cancelPolicyDesc": "如果不想支付取消费用，需在入住日0天12:00（时间）之前取消预订，超出这一时间，将收取费用",
+              "cancelPolicyDescEn": "",
+              "cancelPolicyDescList": [
+                {
+                  "cancelPolicyDesc": "10月22日 12:00前可免费取消",
+                  "cancelPolicyType": 2
+                }
+              ],
+              "couponCount": 0,
+              "dailyPrice": [
+                {
+                  "date": "2026-10-22T00:00:00",
+                  "mealPlanCodes": [
+                    "14"
+                  ],
+                  "prices": [
+                    {
+                      "amount": 595,
+                      "amountWithoutHandlingFree": 595,
+                      "currencyCode": "CNY",
+                      "marketPrice": 389,
+                      "taxAmount": 0,
+                      "taxAmountWithoutHandlingFree": 0
+                    }
+                  ]
+                }
+              ],
+              "endCheckInTime": "",
+              "endTime": "",
+              "fullyBooked": false,
+              "guaranteePolicy": 0,
+              "guaranteePolicyDesc": "通过信用卡预付全部房费预订时付清。",
+              "guaranteePolicyDescEn": "",
+              "hourAge": 0,
+              "hourAvailableCountList": [],
+              "hourBookingBeginTime": "",
+              "hourBookingEndTime": "",
+              "isAgreement": false,
+              "isBindMemberPrice": false,
+              "isHornorGiftHotels": false,
+              "isNightSnack": false,
+              "isOneSelf": false,
+              "isRatePlanOpenResv": true,
+              "latestCheckoutTime": "",
+              "lockPriceCouponActivity": false,
+              "maxBookingCountOfMember": 3,
+              "mealPlanCode": "14",
+              "mealPlanName": "不含早餐",
+              "mealPlanRules": "会员通过华住会平台预订华住会权益适用酒店，按照实际入住的会员的等级享受相应的免费早餐，每间夜赠送免费早餐数不超过入住人数且最多2份；海友酒店不提供早餐。",
+              "mealPlanSummary": "不含早餐",
+              "nightSnackBeginTime": "00:00",
+              "nightSnackEndTime": "23:59",
+              "notAvailableToday": false,
+              "ownerIdentityStatus": false,
+              "packageOrderYn": false,
+              "packagesActivity": false,
+              "prepayType": 1,
+              "prepayTypeDescription": "",
+              "ratePlanCode": "29766-PROel3",
+              "ratePlanName": "深睡好眠",
+              "ratePlanNameEn": "深睡好眠",
+              "rcpType": "RCPTYPE01",
+              "roomCount": 5,
+              "serviceList": [],
+              "supportExpensive": false,
+              "supportPriceProtected": false,
+              "targetChannel": "PMS2020",
+              "upgradeRoomList": [],
+              "vipEnum": ""
+            }
+          ],
+          "roomAmenityList": [],
+          "roomArea": 20,
+          "roomCategory": 0,
+          "roomDescription": "全新汉庭3.5版本，配置55寸超大液晶电视，梦百合床垫，无线网络覆盖，写字桌、床头柜无线手机充电，智能加热马桶等，客房语音交互，让您体验全然一新的舒适享受。 不同房间可能存在偏差，具体以酒店实际为准",
+          "roomPhotoUrl": "https://img.huazhu.com/hdata_hcube/83937e127278135087132a61e56ff1fe.jpg",
+          "roomPhotoUrls": [
+            {
+              "bottomLeft": "",
+              "bottomRight": "",
+              "coverUrl": "",
+              "descript": "",
+              "fileFormat": "",
+              "fileName": "",
+              "fileTitle": "",
+              "fileUrl": "",
+              "hotelNo": "",
+              "imageName": "IMG_4712",
+              "imageType": 2,
+              "imageURL": "https://img.huazhu.com/hdata_hcube/83937e127278135087132a61e56ff1fe.jpg",
+              "isCover": false,
+              "roomTypeCode": "",
+              "showType": "",
+              "sortId": 9999964,
+              "targetType": "",
+              "typeCode": "",
+              "typeMappingCode": "",
+              "videoUrl": ""
+            },
+            {
+              "bottomLeft": "",
+              "bottomRight": "",
+              "coverUrl": "",
+              "descript": "",
+              "fileFormat": "",
+              "fileName": "",
+              "fileTitle": "",
+              "fileUrl": "",
+              "hotelNo": "",
+              "imageName": "高级大床房A",
+              "imageType": 2,
+              "imageURL": "https://img.huazhu.com/cos/mdm/HN20008856/c41afc75-109c-4c0f-af60-8ea5c83fea95/2021-03-31-13-48-32-958.jpeg",
+              "isCover": false,
+              "roomTypeCode": "",
+              "showType": "",
+              "sortId": 9999965,
+              "targetType": "",
+              "typeCode": "",
+              "typeMappingCode": "",
+              "videoUrl": ""
+            },
+            {
+              "bottomLeft": "",
+              "bottomRight": "",
+              "coverUrl": "",
+              "descript": "",
+              "fileFormat": "",
+              "fileName": "",
+              "fileTitle": "",
+              "fileUrl": "",
+              "hotelNo": "",
+              "imageName": "高级大床房A",
+              "imageType": 2,
+              "imageURL": "https://img.huazhu.com/cos/mdm/HN20008856/ebbe783d-8199-496c-a06a-a8bd2ec53fe4/2021-03-31-13-48-33-689.jpeg",
+              "isCover": false,
+              "roomTypeCode": "",
+              "showType": "",
+              "sortId": 9999966,
+              "targetType": "",
+              "typeCode": "",
+              "typeMappingCode": "",
+              "videoUrl": ""
+            },
+            {
+              "bottomLeft": "",
+              "bottomRight": "",
+              "coverUrl": "",
+              "descript": "",
+              "fileFormat": "",
+              "fileName": "",
+              "fileTitle": "",
+              "fileUrl": "",
+              "hotelNo": "",
+              "imageName": "高级大床房A",
+              "imageType": 2,
+              "imageURL": "https://img.huazhu.com/cos/mdm/HN20008856/50f33a70-f764-4bbf-9353-f48a5badc7b4/2021-03-31-13-48-32-775.jpeg",
+              "isCover": false,
+              "roomTypeCode": "",
+              "showType": "",
+              "sortId": 9999967,
+              "targetType": "",
+              "typeCode": "",
+              "typeMappingCode": "",
+              "videoUrl": ""
+            },
+            {
+              "bottomLeft": "",
+              "bottomRight": "",
+              "coverUrl": "",
+              "descript": "",
+              "fileFormat": "",
+              "fileName": "",
+              "fileTitle": "",
+              "fileUrl": "",
+              "hotelNo": "",
+              "imageName": "高级大床房A",
+              "imageType": 2,
+              "imageURL": "https://img.huazhu.com/cos/mdm/HN20008856/578c8603-eb8c-4349-b001-a3f7c53d5d50/2021-03-31-13-48-33-735.jpeg",
+              "isCover": false,
+              "roomTypeCode": "",
+              "showType": "",
+              "sortId": 9999968,
+              "targetType": "",
+              "typeCode": "",
+              "typeMappingCode": "",
+              "videoUrl": ""
+            },
+            {
+              "bottomLeft": "",
+              "bottomRight": "",
+              "coverUrl": "",
+              "descript": "",
+              "fileFormat": "",
+              "fileName": "",
+              "fileTitle": "",
+              "fileUrl": "",
+              "hotelNo": "",
+              "imageName": "IMG_4738",
+              "imageType": 2,
+              "imageURL": "https://img.huazhu.com/hdata_hcube/1a8f96f3cd0e14ee812e1e9c160058ba.jpg",
+              "isCover": false,
+              "roomTypeCode": "",
+              "showType": "",
+              "sortId": 9999969,
+              "targetType": "",
+              "typeCode": "",
+              "typeMappingCode": "",
+              "videoUrl": ""
+            }
+          ],
+          "typeRoomName": "高级大床房A",
+          "typeRoomNameEn": "",
+          "windowType": "4"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,11 @@
+'use client';
+import {useState} from 'react';
+import {Building2,Check,Search} from 'lucide-react';
+import {BRAND_CATALOG,BRAND_CATEGORIES} from '../lib/brands.mjs';
+type Props={brand:string,category:string,hotels:{brand:string}[],onBrand:(value:string)=>void,onCategory:(value:string)=>void};
+export default function BrandFilter({brand,category,hotels,onBrand,onCategory}:Props){
+ const [search,setSearch]=useState('');
+ const counts=new Map<string,number>();for(const h of hotels)counts.set(h.brand,(counts.get(h.brand)||0)+1);
+ const visible=BRAND_CATALOG.filter(b=>(category==='全部品类'||b.category===category)&&(!search||b.aliases.some(a=>a.toLowerCase().includes(search.toLowerCase()))));
+ return <div className="filter-group full-brand-filter"><h3><Building2 size={17}/> 华住全品类 <span className="brand-total">{BRAND_CATALOG.length} 个品牌 / 系列</span></h3><p>完整品牌目录 · 已收录数量不代表上海门店总数</p><div className="brand-search"><Search size={13}/><input aria-label="搜索华住品牌" value={search} onChange={e=>setSearch(e.target.value)} placeholder="搜索品牌 / 中文英文别名"/></div><div className="category-options" aria-label="品牌品类">{BRAND_CATEGORIES.map(c=><button key={c} aria-pressed={category===c} className={category===c?'chosen':' '} onClick={()=>onCategory(c)}>{c}</button>)}</div><button className={!brand&&category==='全部品类'?'all-brands chosen':'all-brands'} aria-pressed={!brand&&category==='全部品类'} onClick={()=>onBrand('')}>全部品牌 <span>{hotels.length} 家已收录</span></button><div className="brand-directory" aria-label="华住品牌目录">{BRAND_CATEGORIES.filter(c=>c!=='全部品类').map(c=>{const items=visible.filter(b=>b.category===c);return items.length?<section className="brand-category" key={c}><h4>{c}</h4><div className="brand-options">{items.map(b=><button key={b.id} className={brand===b.name?'brand chosen':'brand'} aria-pressed={brand===b.name} onClick={()=>onBrand(b.name)} title={b.aliases.join(' / ')}><span>{b.name}</span>{brand===b.name&&<Check size={11}/>}<small>{counts.has(b.name)?'已收录 '+counts.get(b.name):'待收录'}</small></button>)}</div></section>:null})}{visible.length===0&&<p className="no-brand-match">未找到匹配品牌，请换个关键词。</p>}</div><p className="brand-catalog-note">含合作品牌、旅居及公寓系列。选择品牌可查询上海官方候选；“待收录”不表示上海无门店。</p></div>;
+}

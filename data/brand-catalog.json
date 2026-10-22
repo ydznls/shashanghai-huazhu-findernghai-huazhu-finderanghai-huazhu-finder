@@ -1,0 +1,588 @@
+{
+  "checkedAt": "2026-10-21T00:50:40.532Z",
+  "source": "https://www.hworld.com/",
+  "categories": [
+    "全部品类",
+    "国民",
+    "中档",
+    "精选",
+    "高档",
+    "奢华",
+    "旅居",
+    "服务式公寓",
+    "生活方式",
+    "国际品牌",
+    "存量品牌"
+  ],
+  "brands": [
+    {
+      "id": "song",
+      "name": "宋品",
+      "category": "奢华",
+      "aliases": [
+        "宋品",
+        "song"
+      ],
+      "searchTerms": [
+        "宋品"
+      ],
+      "source": "https://www.hworld.com/",
+      "sourceUrl": "https://www.hworld.com/hotel/song"
+    },
+    {
+      "id": "steigenberger-icons",
+      "name": "施柏阁大观",
+      "category": "奢华",
+      "aliases": [
+        "施柏阁大观",
+        "Steigenberger Icons"
+      ],
+      "searchTerms": [
+        "施柏阁大观"
+      ],
+      "source": "https://www.hworld.com/",
+      "sourceUrl": "https://www.hworld.com/hotel/steigenberger-icons"
+    },
+    {
+      "id": "joya",
+      "name": "禧玥",
+      "category": "高档",
+      "aliases": [
+        "禧玥",
+        "禧玥酒店",
+        "JOYA"
+      ],
+      "searchTerms": [
+        "禧玥"
+      ],
+      "source": "https://www.hworld.com/",
+      "sourceUrl": "https://www.hworld.com/hotel/joya"
+    },
+    {
+      "id": "huajiantang",
+      "name": "花间堂",
+      "category": "高档",
+      "aliases": [
+        "花间堂",
+        "Blossom House",
+        "花间府"
+      ],
+      "searchTerms": [
+        "花间堂"
+      ],
+      "source": "https://www.hworld.com/",
+      "sourceUrl": "https://www.hworld.com/hotel/huajiantang"
+    },
+    {
+      "id": "steigenberger",
+      "name": "施柏阁",
+      "category": "高档",
+      "aliases": [
+        "施柏阁",
+        "Steigenberger"
+      ],
+      "searchTerms": [
+        "施柏阁"
+      ],
+      "source": "https://www.hworld.com/",
+      "sourceUrl": "https://www.hworld.com/hotel/steigenberger"
+    },
+    {
+      "id": "maxx",
+      "name": "美仑美奂",
+      "category": "高档",
+      "aliases": [
+        "美仑美奂",
+        "美轮美奂",
+        "MAXX"
+      ],
+      "searchTerms": [
+        "美仑美奂"
+      ],
+      "source": "https://www.hworld.com/",
+      "sourceUrl": "https://www.hworld.com/hotel/maxx"
+    },
+    {
+      "id": "grand-madison",
+      "name": "美仑国际",
+      "category": "高档",
+      "aliases": [
+        "美仑国际",
+        "Grand Madison"
+      ],
+      "searchTerms": [
+        "美仑国际"
+      ],
+      "source": "https://www.hworld.com/",
+      "sourceUrl": "https://www.hworld.com/hotel/grand-madison"
+    },
+    {
+      "id": "lebanshan",
+      "name": "永乐半山",
+      "category": "高档",
+      "aliases": [
+        "永乐半山"
+      ],
+      "searchTerms": [
+        "永乐半山"
+      ],
+      "source": "https://www.hworld.com/",
+      "sourceUrl": "https://www.hworld.com/hotel/lebanshan"
+    },
+    {
+      "id": "novotel",
+      "name": "诺富特",
+      "category": "高档",
+      "aliases": [
+        "诺富特",
+        "Novotel"
+      ],
+      "searchTerms": [
+        "诺富特"
+      ],
+      "source": "https://www.hworld.com/",
+      "sourceUrl": "https://www.hworld.com/hotel/novotel"
+    },
+    {
+      "id": "grand-mercure",
+      "name": "美爵",
+      "category": "高档",
+      "aliases": [
+        "美爵",
+        "Grand Mercure"
+      ],
+      "searchTerms": [
+        "美爵"
+      ],
+      "source": "https://www.hworld.com/",
+      "sourceUrl": "https://www.hworld.com/hotel/grand-mercure"
+    },
+    {
+      "id": "ji-grand",
+      "name": "全季大观",
+      "category": "精选",
+      "aliases": [
+        "全季大观"
+      ],
+      "searchTerms": [
+        "全季大观"
+      ],
+      "source": "https://www.hworld.com/",
+      "sourceUrl": "https://www.hworld.com/"
+    },
+    {
+      "id": "juzishuijing",
+      "name": "桔子水晶",
+      "category": "精选",
+      "aliases": [
+        "桔子水晶",
+        "Crystal Orange",
+        "桔子水晶酒店"
+      ],
+      "searchTerms": [
+        "桔子水晶"
+      ],
+      "source": "https://www.hworld.com/",
+      "sourceUrl": "https://www.hworld.com/hotel/juzishuijing"
+    },
+    {
+      "id": "intercity",
+      "name": "城际",
+      "category": "精选",
+      "aliases": [
+        "城际",
+        "城际酒店",
+        "IntercityHotel",
+        "Intercity"
+      ],
+      "searchTerms": [
+        "城际"
+      ],
+      "source": "https://www.hworld.com/",
+      "sourceUrl": "https://www.hworld.com/hotel/intercity"
+    },
+    {
+      "id": "manxin-mansion",
+      "name": "漫心府",
+      "category": "精选",
+      "aliases": [
+        "漫心府"
+      ],
+      "searchTerms": [
+        "漫心府"
+      ],
+      "source": "https://www.hworld.com/",
+      "sourceUrl": "https://www.hworld.com/"
+    },
+    {
+      "id": "mercure",
+      "name": "美居",
+      "category": "精选",
+      "aliases": [
+        "美居",
+        "Mercure"
+      ],
+      "searchTerms": [
+        "美居"
+      ],
+      "source": "https://www.hworld.com/",
+      "sourceUrl": "https://www.hworld.com/hotel/mercure"
+    },
+    {
+      "id": "citigo",
+      "name": "CitiGO欢阁",
+      "category": "精选",
+      "aliases": [
+        "CitiGO欢阁",
+        "CitiGO酒店",
+        "CitiGO",
+        "欢阁酒店",
+        "欢阁"
+      ],
+      "searchTerms": [
+        "CitiGO",
+        "欢阁"
+      ],
+      "source": "https://www.hworld.com/",
+      "sourceUrl": "https://www.hworld.com/hotel/citigo"
+    },
+    {
+      "id": "madison",
+      "name": "美仑",
+      "category": "精选",
+      "aliases": [
+        "美仑",
+        "美仑酒店",
+        "Madison"
+      ],
+      "searchTerms": [
+        "美仑酒店"
+      ],
+      "source": "https://www.hworld.com/",
+      "sourceUrl": "https://www.hworld.com/hotel/madison"
+    },
+    {
+      "id": "quanji",
+      "name": "全季",
+      "category": "中档",
+      "aliases": [
+        "全季",
+        "全季酒店",
+        "JI Hotel"
+      ],
+      "searchTerms": [
+        "全季"
+      ],
+      "source": "https://www.hworld.com/",
+      "sourceUrl": "https://www.hworld.com/hotel/quanji"
+    },
+    {
+      "id": "juzi",
+      "name": "桔子",
+      "category": "中档",
+      "aliases": [
+        "桔子",
+        "桔子精选",
+        "桔子酒店",
+        "Orange Hotel"
+      ],
+      "searchTerms": [
+        "桔子"
+      ],
+      "source": "https://www.hworld.com/",
+      "sourceUrl": "https://www.hworld.com/hotel/juzi"
+    },
+    {
+      "id": "manxin",
+      "name": "漫心",
+      "category": "中档",
+      "aliases": [
+        "漫心",
+        "漫心酒店",
+        "Manxin"
+      ],
+      "searchTerms": [
+        "漫心"
+      ],
+      "source": "https://www.hworld.com/",
+      "sourceUrl": "https://www.hworld.com/hotel/manxin"
+    },
+    {
+      "id": "starway",
+      "name": "星程",
+      "category": "中档",
+      "aliases": [
+        "星程",
+        "星程酒店",
+        "Starway"
+      ],
+      "searchTerms": [
+        "星程"
+      ],
+      "source": "https://www.hworld.com/",
+      "sourceUrl": "https://www.hworld.com/hotel/starway"
+    },
+    {
+      "id": "hanting",
+      "name": "汉庭",
+      "category": "国民",
+      "aliases": [
+        "汉庭",
+        "汉庭酒店",
+        "Hanting"
+      ],
+      "searchTerms": [
+        "汉庭"
+      ],
+      "source": "https://www.hworld.com/",
+      "sourceUrl": "https://www.hworld.com/hotel/hanting"
+    },
+    {
+      "id": "hanting-express",
+      "name": "汉庭快捷",
+      "category": "国民",
+      "aliases": [
+        "汉庭快捷"
+      ],
+      "searchTerms": [
+        "汉庭快捷"
+      ],
+      "source": "https://www.hworld.com/",
+      "sourceUrl": "https://www.hworld.com/"
+    },
+    {
+      "id": "nihao",
+      "name": "你好",
+      "category": "国民",
+      "aliases": [
+        "你好",
+        "你好酒店",
+        "Ni Hao"
+      ],
+      "searchTerms": [
+        "你好"
+      ],
+      "source": "https://www.hworld.com/",
+      "sourceUrl": "https://www.hworld.com/hotel/nihao"
+    },
+    {
+      "id": "hi-lnn",
+      "name": "海友",
+      "category": "国民",
+      "aliases": [
+        "海友",
+        "海友良品",
+        "海友酒店",
+        "Hi Inn"
+      ],
+      "searchTerms": [
+        "海友"
+      ],
+      "source": "https://www.hworld.com/",
+      "sourceUrl": "https://www.hworld.com/hotel/hi-lnn"
+    },
+    {
+      "id": "ibis",
+      "name": "宜必思",
+      "category": "国民",
+      "aliases": [
+        "宜必思",
+        "ibis"
+      ],
+      "searchTerms": [
+        "宜必思"
+      ],
+      "source": "https://www.hworld.com/",
+      "sourceUrl": "https://www.hworld.com/hotel/ibis"
+    },
+    {
+      "id": "ibis-styles",
+      "name": "宜必思尚品",
+      "category": "国民",
+      "aliases": [
+        "宜必思尚品",
+        "ibis Styles",
+        "ibis尚品"
+      ],
+      "searchTerms": [
+        "宜必思尚品"
+      ],
+      "source": "https://www.hworld.com/",
+      "sourceUrl": "https://www.hworld.com/hotel/ibis-styles"
+    },
+    {
+      "id": "cjia-apartment-prime",
+      "name": "城家公寓酒店",
+      "category": "旅居",
+      "aliases": [
+        "城家公寓酒店",
+        "城家高级公寓"
+      ],
+      "searchTerms": [
+        "城家高级公寓",
+        "城家公寓酒店"
+      ],
+      "source": "https://www.hworld.com/",
+      "sourceUrl": "https://www.hworld.com/hotel/cjia-apartment-prime"
+    },
+    {
+      "id": "ruibeiting",
+      "name": "瑞贝庭公寓酒店",
+      "category": "旅居",
+      "aliases": [
+        "瑞贝庭公寓酒店",
+        "瑞贝庭",
+        "瑞贝庭公寓"
+      ],
+      "searchTerms": [
+        "瑞贝庭公寓酒店"
+      ],
+      "source": "https://www.hworld.com/",
+      "sourceUrl": "https://www.hworld.com/"
+    },
+    {
+      "id": "citadines",
+      "name": "馨乐庭",
+      "category": "旅居",
+      "aliases": [
+        "馨乐庭",
+        "Citadines"
+      ],
+      "searchTerms": [
+        "馨乐庭"
+      ],
+      "source": "https://www.hworld.com/",
+      "sourceUrl": "https://www.hworld.com/hotel/citadines"
+    },
+    {
+      "id": "cjia-apartment",
+      "name": "城家公寓",
+      "category": "服务式公寓",
+      "aliases": [
+        "城家公寓",
+        "Cjia"
+      ],
+      "searchTerms": [
+        "城家公寓"
+      ],
+      "source": "https://www.hworld.com/",
+      "sourceUrl": "https://www.hworld.com/hotel/cjia-apartment"
+    },
+    {
+      "id": "citigo-house",
+      "name": "CitiGO HOUSE欢阁服务公寓",
+      "category": "服务式公寓",
+      "aliases": [
+        "CitiGO HOUSE欢阁服务公寓",
+        "CitiGO HOUSE",
+        "CitiGOHOUSE",
+        "欢阁服务公寓"
+      ],
+      "searchTerms": [
+        "CitiGO HOUSE",
+        "欢阁服务公寓"
+      ],
+      "source": "https://www.hworld.com/",
+      "sourceUrl": "https://www.hworld.com/hotel/citigo-house"
+    },
+    {
+      "id": "cjia-lux",
+      "name": "城家奢华公寓",
+      "category": "服务式公寓",
+      "aliases": [
+        "城家奢华公寓"
+      ],
+      "searchTerms": [
+        "城家奢华公寓"
+      ],
+      "source": "https://www.hworld.com/",
+      "sourceUrl": "https://www.hworld.com/hotel/cjia-lux"
+    },
+    {
+      "id": "li-yeah",
+      "name": "励业公寓",
+      "category": "服务式公寓",
+      "aliases": [
+        "励业公寓",
+        "励业"
+      ],
+      "searchTerms": [
+        "励业公寓"
+      ],
+      "source": "https://www.hworld.com/",
+      "sourceUrl": "https://www.hworld.com/hotel/li-yeah"
+    },
+    {
+      "id": "bise",
+      "name": "碧舍",
+      "category": "生活方式",
+      "aliases": [
+        "碧舍",
+        "BISE"
+      ],
+      "searchTerms": [
+        "碧舍"
+      ],
+      "source": "https://www.hworld.com/",
+      "sourceUrl": "https://www.hworld.com/"
+    },
+    {
+      "id": "jaz",
+      "name": "Jaz in the City",
+      "category": "生活方式",
+      "aliases": [
+        "Jaz in the City",
+        "Jaz",
+        "jaz"
+      ],
+      "searchTerms": [
+        "Jaz"
+      ],
+      "source": "https://www.hworld.com/",
+      "sourceUrl": "https://www.hworld.com/"
+    },
+    {
+      "id": "zleep",
+      "name": "Zleep Hotels",
+      "category": "国际品牌",
+      "aliases": [
+        "Zleep Hotels",
+        "Zleep"
+      ],
+      "searchTerms": [
+        "Zleep"
+      ],
+      "source": "https://ir.hworld.com/zh-hans/",
+      "sourceUrl": "https://www.hworld.com/"
+    },
+    {
+      "id": "elan",
+      "name": "怡莱",
+      "category": "存量品牌",
+      "aliases": [
+        "怡莱",
+        "怡莱酒店",
+        "怡莱精品",
+        "Elan"
+      ],
+      "searchTerms": [
+        "怡莱"
+      ],
+      "source": "https://m.huazhu.com/",
+      "sourceUrl": "https://www.hworld.com/"
+    },
+    {
+      "id": "hanting-youjia",
+      "name": "汉庭优佳",
+      "category": "存量品牌",
+      "aliases": [
+        "汉庭优佳"
+      ],
+      "searchTerms": [
+        "汉庭优佳"
+      ],
+      "source": "https://m.huazhu.com/",
+      "sourceUrl": "https://www.hworld.com/"
+    }
+  ]
+}

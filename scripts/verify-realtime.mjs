@@ -1,0 +1,16 @@
+import assert from 'node:assert/strict';
+import {inspectPublicPage,queryLegacyHotel as queryPublicHotel,validateQueryBody} from '../lib/realtime.mjs';
+const model={Info:{HotelCode:'9000001',HotelName:'全季上海验证酒店',BrandName:'全季',HotelInfo:{Descriptions:{Description:{Text:[{Value:'距离地铁1号线测试站300米，2022年开业。'}]}}},ContactInfos:[{Addresses:[{CityName:'上海',AddressLine:['上海市测试路1号']}]}]},ExpandEntity:{HuaZhuHotelEntity:{CityName:'上海'}},HotelScore:4.8,Photos:[],Rooms:[]};
+const html=(m=model,a='2026-10-22',b='2026-10-23')=>`<title>酒店详情</title>12条评价<script>ndoo.vars.detailModel=${JSON.stringify(JSON.stringify(m))};ndoo.vars.wa.checkin_date="${a}";ndoo.vars.wa.checkout_date="${b}";</script>`;
+const parse=s=>inspectPublicPage(s,'9000001','2026-10-22','2026-10-23','/Hotel/Detail/9000001');
+const empty=parse(html());assert.equal(empty.status,'no_public_quote');assert.equal(empty.dateConfirmed,true);assert.equal(empty.hotel.quote,null);assert.equal(empty.hotel.score,4.8);assert.equal(empty.hotel.metro.meters,300);assert.match(empty.message,/不能据此判断满房/);
+assert.equal(parse(html(model,'2026-10-23','2026-10-24')).status,'date_unconfirmed');
+assert.equal(parse('<title>会员登录</title>').status,'login_required');
+assert.equal(parse('<title>安全验证</title>').status,'verification_required');
+assert.throws(()=>parse(html({...model,Info:{...model.Info,HotelCode:'9999999'}})));
+const rooms=parse(html({...model,Rooms:[{RoomDetail:{RoomTypeName:'双床房',BedTypeName:'双床',RoomArea:25},RatePlanCodeList:[{Name:'会员价',DailyPriceInfo:[{Payment:99}]}]}]}));assert.equal(rooms.status,'rooms_without_quote');assert.equal(rooms.hotel.quote,null);assert.equal(rooms.roomTypes[0].name,'双床房');
+const calls=[];const getSession=async()=>async(url,options={})=>{calls.push({url,options});return url.includes('NewSetParameter')?'{"isSuccess":1}':url.includes('Detail')?html():'city';};
+const result=await queryPublicHotel({id:'9000001',name:'测试'},'2026-10-22','2026-10-23',{getSession});assert.equal(result.status,'no_public_quote');assert.equal(calls.length,3);assert.equal(calls[1].options.body.get('checkInDate'),'2026-10-22');assert.equal(calls[1].options.body.get('hotelid'),'9000001');assert(calls.every(c=>c.options.signal));
+const timed=await queryPublicHotel({id:'9000001',name:'测试'},'2026-10-22','2026-10-23',{getSession:async()=>async()=>{throw new DOMException('timed out','TimeoutError')}});assert.equal(timed.status,'timeout');assert.equal(timed.hotel,null);
+const known=new Set(['9000001']);assert.deepEqual(validateQueryBody({ids:['9000001','9000001']},known),['9000001']);assert.throws(()=>validateQueryBody({ids:['unknown']},known));assert.throws(()=>validateQueryBody({ids:Array(7).fill('9000001')},known));assert.throws(()=>validateQueryBody({ids:[]},known));
+console.log('Realtime checks passed: requested dates, hotel identity, anonymous session, room/price separation, login, verification, timeout and bounded batches.');

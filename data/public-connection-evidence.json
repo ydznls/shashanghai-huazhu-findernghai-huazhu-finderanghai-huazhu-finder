@@ -1,0 +1,46 @@
+{
+  "testedAt": "2026-10-21T01:30:03.389Z",
+  "meaning": "真实官网公开页面查询结果；未返回报价不代表满房",
+  "memberCalendar": "官网脚本/Hotel/Price属于华住会员价，不用作官方公开价",
+  "results": [
+    {
+      "id": "9008762",
+      "name": "上海周家嘴路新华医院项目",
+      "sourceUrl": "https://m.huazhu.com/Hotel/Detail/9008762?CheckInDate=2026-10-22&CheckOutDate=2026-10-23",
+      "checkIn": "2026-10-22",
+      "checkOut": "2026-10-23",
+      "checkedAt": "2026-10-21T01:30:02.491Z",
+      "status": "no_public_quote",
+      "dateConfirmed": true,
+      "roomTypeCount": 0,
+      "quote": null,
+      "elapsedMs": 654
+    },
+    {
+      "id": "9007771",
+      "name": "汉庭上海虹桥北新泾地铁站酒店",
+      "sourceUrl": "https://m.huazhu.com/Hotel/Detail/9007771?CheckInDate=2026-10-22&CheckOutDate=2026-10-23",
+      "checkIn": "2026-10-22",
+      "checkOut": "2026-10-23",
+      "checkedAt": "2026-10-21T01:30:02.977Z",
+      "status": "no_public_quote",
+      "dateConfirmed": true,
+      "roomTypeCount": 0,
+      "quote": null,
+      "elapsedMs": 484
+    },
+    {
+      "id": "3019",
+      "name": "上海海神诺富特大酒店",
+      "sourceUrl": "https://m.huazhu.com/Hotel/InterDetail/3019?CheckInDate=2026-10-22&CheckOutDate=2026-10-23",
+      "checkIn": "2026-10-22",
+      "checkOut": "2026-10-23",
+      "checkedAt": "2026-10-21T01:30:03.389Z",
+      "status": "login_required",
+      "dateConfirmed": false,
+      "roomTypeCount": 0,
+      "quote": null,
+      "elapsedMs": 411
+    }
+  ]
+}

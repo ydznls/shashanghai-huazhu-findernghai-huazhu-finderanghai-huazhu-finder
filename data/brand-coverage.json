@@ -1,0 +1,201 @@
+{
+  "checkedAt": "2026-10-21T01:15:10.732Z",
+  "meaning": "官网上海列表实际去重收录数；不是当前可订门店数",
+  "brands": [
+    {
+      "brand": "宋品",
+      "collected": 1,
+      "details": 1
+    },
+    {
+      "brand": "施柏阁大观",
+      "collected": 0,
+      "details": 0
+    },
+    {
+      "brand": "禧玥",
+      "collected": 4,
+      "details": 4
+    },
+    {
+      "brand": "花间堂",
+      "collected": 3,
+      "details": 2
+    },
+    {
+      "brand": "施柏阁",
+      "collected": 1,
+      "details": 0
+    },
+    {
+      "brand": "美仑美奂",
+      "collected": 2,
+      "details": 1
+    },
+    {
+      "brand": "美仑国际",
+      "collected": 0,
+      "details": 0
+    },
+    {
+      "brand": "永乐半山",
+      "collected": 0,
+      "details": 0
+    },
+    {
+      "brand": "诺富特",
+      "collected": 16,
+      "details": 6
+    },
+    {
+      "brand": "美爵",
+      "collected": 2,
+      "details": 1
+    },
+    {
+      "brand": "全季大观",
+      "collected": 1,
+      "details": 0
+    },
+    {
+      "brand": "桔子水晶",
+      "collected": 35,
+      "details": 25
+    },
+    {
+      "brand": "城际",
+      "collected": 19,
+      "details": 1
+    },
+    {
+      "brand": "漫心府",
+      "collected": 4,
+      "details": 3
+    },
+    {
+      "brand": "美居",
+      "collected": 22,
+      "details": 16
+    },
+    {
+      "brand": "CitiGO欢阁",
+      "collected": 8,
+      "details": 8
+    },
+    {
+      "brand": "美仑",
+      "collected": 7,
+      "details": 2
+    },
+    {
+      "brand": "全季",
+      "collected": 276,
+      "details": 225
+    },
+    {
+      "brand": "桔子",
+      "collected": 64,
+      "details": 38
+    },
+    {
+      "brand": "漫心",
+      "collected": 3,
+      "details": 3
+    },
+    {
+      "brand": "星程",
+      "collected": 6,
+      "details": 4
+    },
+    {
+      "brand": "汉庭",
+      "collected": 264,
+      "details": 177
+    },
+    {
+      "brand": "汉庭快捷",
+      "collected": 3,
+      "details": 0
+    },
+    {
+      "brand": "你好",
+      "collected": 2,
+      "details": 1
+    },
+    {
+      "brand": "海友",
+      "collected": 81,
+      "details": 53
+    },
+    {
+      "brand": "宜必思",
+      "collected": 6,
+      "details": 6
+    },
+    {
+      "brand": "宜必思尚品",
+      "collected": 5,
+      "details": 4
+    },
+    {
+      "brand": "城家公寓酒店",
+      "collected": 6,
+      "details": 0
+    },
+    {
+      "brand": "瑞贝庭公寓酒店",
+      "collected": 7,
+      "details": 3
+    },
+    {
+      "brand": "馨乐庭",
+      "collected": 7,
+      "details": 6
+    },
+    {
+      "brand": "城家公寓",
+      "collected": 16,
+      "details": 0
+    },
+    {
+      "brand": "CitiGO HOUSE欢阁服务公寓",
+      "collected": 1,
+      "details": 0
+    },
+    {
+      "brand": "城家奢华公寓",
+      "collected": 0,
+      "details": 0
+    },
+    {
+      "brand": "励业公寓",
+      "collected": 0,
+      "details": 0
+    },
+    {
+      "brand": "碧舍",
+      "collected": 0,
+      "details": 0
+    },
+    {
+      "brand": "Jaz in the City",
+      "collected": 0,
+      "details": 0
+    },
+    {
+      "brand": "Zleep Hotels",
+      "collected": 0,
+      "details": 0
+    },
+    {
+      "brand": "怡莱",
+      "collected": 0,
+      "details": 0
+    },
+    {
+      "brand": "汉庭优佳",
+      "collected": 29,
+      "details": 29
+    }
+  ]
+}
