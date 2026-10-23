@@ -11,7 +11,7 @@ export async function GET(request:Request){
   const {checkIn,checkOut}=validateDates(p.get('checkIn')||'',p.get('checkOut')||'');
   const page=Math.max(0,Math.min(200,Math.floor(Number(p.get('page'))||0))),found=await discoverHotels('上海',brand?.name||'');
   const candidates=[...new Map([...found,...snapshot.hotels.filter(h=>!brand||matchBrand(h.brand,h.name)?.name===brand.name).map(h=>({id:h.id,name:h.name}))].map(h=>[h.id,h])).values()],hotels=[],errors=[];
-  for(const c of candidates.slice(page*6,page*6+6)){try{const h=await fetchHotel(c.id,checkIn,checkOut);if(!brand||h.brand===brand.name)hotels.push(h);}catch(e){errors.push({id:c.id,error:e instanceof Error?e.message:'读取失败'});}}
+  for(const c of candidates.slice(page*6,page*6+6)){try{const h=await fetchHotel(c.id,checkIn,checkOut);if(!brand||h.brand===brand.name)hotels.push({...h,opening:snapshot.hotels.find(s=>s.id===h.id)?.opening||h.opening||null});}catch(e){errors.push({id:c.id,error:e instanceof Error?e.message:'读取失败'});}}
   return Response.json({hotels,errors,collectedAt:new Date().toISOString(),mode:'live',brand:brand?.name||null,totalCandidates:candidates.length,nextPage:(page+1)*6<candidates.length?page+1:null},{headers:{'Cache-Control':'private, no-store'}});
  }catch(e){return Response.json({error:e instanceof Error?e.message:'官方页面暂时无法读取'},{status:502});}
 }
